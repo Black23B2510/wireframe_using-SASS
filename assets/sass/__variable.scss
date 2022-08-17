@@ -1,0 +1,62 @@
+// color
+$main-color: #FFFFFF;
+$black: #000000;
+$box-color: #E1E1E1;
+$footer-color: #404040;
+//border radius
+$box-border-radius: 10px;
+//font-family
+$ff-roboto: 'Roboto', sans-serif;
+$ff-montserrat: 'Montserrat', sans-serif;
+$ff-poppins: 'Poppins', sans-serif;
+
+
+:root{
+    --fz-main: 15px;
+    --fz-navtabs: 18px;
+    --fz-products: 20px;
+    --fz-title: 32px;
+    --fz-banner: 48px;
+}
+
+@media only screen and (max-width:1400px){
+    :root{
+        --fz-main: 14px;
+        --fz-navtabs: 16px;
+        --fz-products: 17px;
+        --fz-title: 30px;
+        --fz-banner: 40px;
+    }
+}
+
+@media only screen and (max-width:940px){
+    :root{
+        --fz-main: 13px;
+        --fz-navtabs: 15px;
+        --fz-products: 15px;
+        --fz-title: 28px;
+        --fz-banner: 32px;
+    }
+}
+
+@media only screen and (max-width:640px){
+    :root{
+        --fz-main: 11px;
+        --fz-navtabs: 13px;
+        --fz-products: 15px;
+        --fz-title: 25px;
+        --fz-banner: 30px;
+    }
+}
+
+@media only screen and (max-width:480px){
+    :root{
+        --fz-main: 9px;
+        --fz-navtabs: 11px;
+        --fz-products: 13px;
+        --fz-title: 23px;
+        --fz-banner: 28px;
+        
+    }
+}
+
