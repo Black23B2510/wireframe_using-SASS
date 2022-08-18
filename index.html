@@ -1,193 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/app.css">
-    <link rel="stylesheet" href="/assets/css/responsive.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300;1,400&family=Poppins:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
-    <title>SASS</title>
-</head>
-<body>
-    <header id="header">
-        <div class="container">
-            <div class="main-nav" id="main-nav">
-                <div class="main-nav__logo">
-                    <img src="/assets/images/logo.png" alt="">
-                </div>
-                <div id="mobile-menu" class="main-nav__icon">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-                <nav id="main-nav__bar" class="main-nav__bar">
-                    <ul class="main-nav__list">
-                        <li class="main-nav__item"><a class="main-nav__link" href="#about-us">About us</a></li>
-                        <li class="main-nav__item"><a class="main-nav__link" href="">Brand</a></li>
-                        <li class="main-nav__item"><a class="main-nav__link" href="">News</a></li>
-                        <li class="main-nav__item"><a class="main-nav__link"  href="">Dearler</a></li>
-                        <li class="main-nav__item"><a class="main-nav__link" href="">Customer services</a></li>
-                        <li class="main-nav__item"><a class="main-nav__link" href="#">Contact us</a></li>
-                        <li class="main-nav__item"><a class="main-nav__link" href="#">My cart</a><span class="main-nav__cart">3</span></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section class="carousel">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/app.css">
+        <link rel="stylesheet" href="/assets/css/responsive.css">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300;1,400&family=Poppins:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,400;1,300&display=swap"
+            rel="stylesheet">
+        <title>SASS</title>
+    </head>
+    <body>
+        <header id="header">
             <div class="container">
-                <div class="swiper">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <h1 class="swiper-slide__title">HERO BANNER</h1>
-                            <p class="swiper-slide__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                Duis aute irure dolor in reprehenderit in voluptate
-                            </p>
-                        </div>
-                        <div class="swiper-slide">
-                            <h1 class="swiper-slide__title">HERO BANNER</h1>
-                        </div>
-                        <div class="swiper-slide">
-                            <h1 class="swiper-slide__title">HERO BANNER</h1>
-                        </div>
-                        <div class="swiper-slide">
-                            <h1 class="swiper-slide__title">HERO BANNER</h1>
-                        </div>
-                        <div class="swiper-slide">
-                            <h1 class="swiper-slide__title">HERO BANNER</h1>
-                        </div>
-                        <div class="swiper-slide">
-                            <h1 class="swiper-slide__title">HERO BANNER</h1>
-                        </div>
+                <div class="main-nav" id="main-nav">
+                    <div class="main-nav__logo">
+                        <img src="/assets/images/logo.png" alt="">
                     </div>
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <div id="mobile-menu" class="main-nav__icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <nav id="main-nav__bar" class="main-nav__bar">
+                        <ul class="main-nav__list">
+                            <li class="main-nav__item"><a class="main-nav__link"
+                                    href="#about-us">About us</a></li>
+                            <li class="main-nav__item"><a class="main-nav__link"
+                                    href="">Brand</a></li>
+                            <li class="main-nav__item"><a class="main-nav__link"
+                                    href="">News</a></li>
+                            <li class="main-nav__item"><a class="main-nav__link"
+                                    href="">Dearler</a></li>
+                            <li class="main-nav__item"><a class="main-nav__link"
+                                    href="">Customer services</a></li>
+                            <li class="main-nav__item"><a class="main-nav__link"
+                                    href="#">Contact us</a></li>
+                            <li class="main-nav__item"><a class="main-nav__link"
+                                    href="#">My cart</a><span
+                                    class="main-nav__cart">3</span></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </section>
-        <section class="feature-products">
-            <div class="container">
-                <h3 class="feature-products__title">Feature products</h3>
-                <div class="feature-products__list">
-                    <div class="feature-products__item"></div>
-                    <div class="feature-products__item"></div> 
-                    <div class="feature-products__item"></div> 
-                    <div class="feature-products__item"></div> 
-                </div>
-            </div>
-        </section>
-        <section class="our-products">
-            <div class="container">
-                <h3 class="our-products__title">Our products</h3>
-                <nav class="our-products__categories">
-                    <ul class="our-products__navtabs">
-                        <li class="our-products__tab">
-                            <a href="#" class="active"><b>Technology</b></a>
-                            <!-- <div class="categories-list__underline"></div> -->
-                        </li>
-                        <li class="our-products__tab"><a href="#">Fashion</a></li>
-                        <li class="our-products__tab"><a href="#">Home direction</a></li>
-                        <li class="our-products__tab"><a href="#">More</a><i class="fa fa-chevron-down our-products__tab--icon" aria-hidden="true"></i></li>
-                    </ul>
-                </nav>
-                <div class="our-products__list">
-                    <div class="our-products__card" >
-                        <div class="our-products__img"></div>
-                        <h4 class="our-products__name"><a class="our-products__link" href="#">Lorem ipsum dolor sit amet</a></h4>
-                        <p class="our-products__price">$999.9</p>
+        </header>
+        <main>
+            <section class="carousel">
+                <div class="">
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img class="" src="/assets/images/g-dragon.jpg"
+                                    alt="">
+                                <div class="swiper-slide__content">
+                                    <h1 class="swiper-slide__title">HERO BANNER</h1>
+                                    <p class="swiper-slide__text">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris
+                                        nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit
+                                        in voluptate
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/assets/images/g-dragon.jpg" alt="">
+                                <!-- <h1 class="swiper-slide__title">HERO BANNER</h1> -->
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/assets/images/gd2.jpg" alt="">
+
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/assets/images/gd.png" alt="">
+
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/assets/images/gd3.jpg" alt="">
+
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/assets/images/gd4.jpg" alt="">
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- If we need navigation buttons -->
                     </div>
-                    <div class="our-products__card" >
-                        <div class="our-products__img"></div>
-                        <h4 class="our-products__name"><a class="our-products__link" href="#">Lorem ipsum dolor sit amet</a></h4>
-                        <p class="our-products__price">$999.9</p>
-                    </div>
-                    <div class="our-products__card" >
-                        <div class="our-products__img"></div>
-                        <h4 class="our-products__name"><a class="our-products__link" href="#">Lorem ipsum dolor sit amet</a></h4>
-                        <p class="our-products__price">$999.9</p>
-                    </div>
-                    <div class="our-products__card" >
-                        <div class="our-products__img"></div>
-                        <h4 class="our-products__name"><a class="our-products__link" href="#">Lorem ipsum dolor sit amet</a></h4>
-                        <p class="our-products__price">$999.9</p>
-                    </div>
-                    <div class="our-products__card" >
-                        <div class="our-products__img"></div>
-                        <h4 class="our-products__name"><a class="our-products__link" href="#">Lorem ipsum dolor sit amet</a></h4>
-                        <p class="our-products__price">$999.9</p>
-                    </div>
-                    <div class="our-products__card" >
-                        <div class="our-products__img"></div>
-                        <h4 class="our-products__name"><a class="our-products__link" href="#">Lorem ipsum dolor sit amet</a></h4>
-                        <p class="our-products__price">$999.9</p>
+                    
+                    <div class="">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
                     </div>
                 </div>
-            </div>
-        </section>
-        <section  id="about-us" class="about-us">
-            <div class="about-us__wraper">
-                <h3 class="about-us__title">About us</h3>
-                <p class="about-us__content">    
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <button class="about-us__btn">Read more</button>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <form class="footer-signup">
-            <h5 class="footer-signup__title">Find out more about us</h5>
-            <div class="footer-signup__form">
-                <input type="email" name="" id="" placeholder="Enter your email address">
-                <button>SIGN UP</button>
-            </div>
-        </form>
-        <div class="footer-infor">
-            <div class="footer-infor__wraper">
-                <h1 class="footer-infor__title">GLUXURY</h1>
-                <div class="footer-infor__site">
-                    <h4 class="footer-infor__site--title">Site</h4>
-                    <ul class="footer-infor__site--list">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                    </ul>
+            </section>
+            <section class="feature-products">
+                <div class="container">
+                    <h3 class="feature-products__title">Feature products</h3>
+                    <div class="feature-products__list">
+                        <div class="feature-products__item"></div>
+                        <div class="feature-products__item"></div>
+                        <div class="feature-products__item"></div>
+                        <div class="feature-products__item"></div>
+                    </div>
                 </div>
-                <div class="footer-infor__terms">
-                    <h4 class="footer-infor__terms--title">Terms</h4>
-                    <ul class="footer-infor__terms--list">
-                        <li><a href="#">Policy</a></li>
-                        <li><a href="#">Privacy</a></li>
-                    </ul>
+            </section>
+            <section class="our-products">
+                <div class="container">
+                    <h3 class="our-products__title">Our products</h3>
+                    <nav class="our-products__categories">
+                        <ul class="our-products__navtabs">
+                            <li class="our-products__tab">
+                                <a href="#" class="active"><b>Technology</b></a>
+                                <!-- <div class="categories-list__underline"></div> -->
+                            </li>
+                            <li class="our-products__tab"><a href="#">Fashion</a></li>
+                            <li class="our-products__tab"><a href="#">Home
+                                    direction</a></li>
+                            <li class="our-products__tab"><a href="#">More</a><i
+                                    class="fa fa-chevron-down
+                                    our-products__tab--icon" aria-hidden="true"></i></li>
+                        </ul>
+                    </nav>
+                    <div class="our-products__list">
+                        <div class="our-products__card">
+                            <div class="our-products__img"></div>
+                            <h4 class="our-products__name"><a
+                                    class="our-products__link" href="#">Lorem
+                                    ipsum dolor sit amet</a></h4>
+                            <p class="our-products__price">$999.9</p>
+                        </div>
+                        <div class="our-products__card">
+                            <div class="our-products__img"></div>
+                            <h4 class="our-products__name"><a
+                                    class="our-products__link" href="#">Lorem
+                                    ipsum dolor sit amet</a></h4>
+                            <p class="our-products__price">$999.9</p>
+                        </div>
+                        <div class="our-products__card">
+                            <div class="our-products__img"></div>
+                            <h4 class="our-products__name"><a
+                                    class="our-products__link" href="#">Lorem
+                                    ipsum dolor sit amet</a></h4>
+                            <p class="our-products__price">$999.9</p>
+                        </div>
+                        <div class="our-products__card">
+                            <div class="our-products__img"></div>
+                            <h4 class="our-products__name"><a
+                                    class="our-products__link" href="#">Lorem
+                                    ipsum dolor sit amet</a></h4>
+                            <p class="our-products__price">$999.9</p>
+                        </div>
+                        <div class="our-products__card">
+                            <div class="our-products__img"></div>
+                            <h4 class="our-products__name"><a
+                                    class="our-products__link" href="#">Lorem
+                                    ipsum dolor sit amet</a></h4>
+                            <p class="our-products__price">$999.9</p>
+                        </div>
+                        <div class="our-products__card">
+                            <div class="our-products__img"></div>
+                            <h4 class="our-products__name"><a
+                                    class="our-products__link" href="#">Lorem
+                                    ipsum dolor sit amet</a></h4>
+                            <p class="our-products__price">$999.9</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="footer-infor__circle">
-                    <div class="footer-infor__circle--item"></div>
-                    <div class="footer-infor__circle--item"></div>
-                    <div class="footer-infor__circle--item"></div>
-                    <div class="footer-infor__circle--item"></div>
-                    <div class="footer-infor__circle--item"></div>
+            </section>
+            <section id="about-us" class="about-us">
+                <div class="about-us__wraper">
+                    <h3 class="about-us__title">About us</h3>
+                    <p class="about-us__content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <button class="about-us__btn">Read more</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <form class="footer-signup">
+                <h5 class="footer-signup__title">Find out more about us</h5>
+                <div class="footer-signup__form">
+                    <input type="email" name="" id="" placeholder="Enter your email address">
+                    <button>SIGN UP</button>
+                </div>
+            </form>
+            <div class="footer-infor">
+                <div class="footer-infor__wraper">
+                    <h1 class="footer-infor__title">GLUXURY</h1>
+                    <div class="footer-infor__site">
+                        <h4 class="footer-infor__site--title">Site</h4>
+                        <ul class="footer-infor__site--list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-infor__terms">
+                        <h4 class="footer-infor__terms--title">Terms</h4>
+                        <ul class="footer-infor__terms--list">
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-infor__circle">
+                        <div class="footer-infor__circle--item"></div>
+                        <div class="footer-infor__circle--item"></div>
+                        <div class="footer-infor__circle--item"></div>
+                        <div class="footer-infor__circle--item"></div>
+                        <div class="footer-infor__circle--item"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <section class="footer-copyright">
-            <p class="footer-copyright__text">copyright informations</p>
-        </section>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <!-- sass ./sass/app.scss ./css/app.css --watch -->
-</body>
+            <section class="footer-copyright">
+                <p class="footer-copyright__text">Copyright informations</p>
+            </section>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <!-- sass ./sass/app.scss ./css/app.css --watch -->
+        <!-- swiper-button-prev:after -->
+    </body>
 </html>

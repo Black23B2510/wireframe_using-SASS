@@ -34,6 +34,9 @@ header{
             color: $main-color;
             background-color: #333333;
         }
+        &__item:last-child{
+            margin-left: 15px;
+        }
         &__link{
             font: var(--fz-main) $ff-montserrat ;
             font-weight: 400;
@@ -55,27 +58,36 @@ header{
 }
 
 .swiper{
-    height: 800px;
-    // min-height: 375px;
-    // height: 47vw;
+    max-height: 800px;
+    min-height: 375px;
+    height: 50vw;
     width: 100%;
     position: relative;
-    &-slide{
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        align-items: flex-start;
-        gap: 16px;
-        margin-top: 316px;
+    img{
+        height: 100%;
+        vertical-align: middle;
+        width: 100%;
+        object-fit: cover;
         position: absolute;
-        left: 8%;
-        text-align: left;
-        // &__img{
-        //     width: 100%;
-        //     height: auto;
-        //     object-fit: cover;
-        // }
+        // height: auto;
+    }
+    &-slide{
+        &__content{
+            position: absolute;
+            top: 39.5%;
+            left: 24.25%;
+        }
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: left;
+        // align-items: flex-start;
+        // gap: 16px;
+        // margin-top: 316px;
+        // position: absolute;
+        // left: 8%;
+        // text-align: left;
         &__title{
+            margin-bottom: 16px;
             font: var(--fz-banner) $ff-montserrat;
             font-weight: 700;
             line-height: 59px;
@@ -86,15 +98,18 @@ header{
             height: auto;
             font: var(--fz-main) $ff-roboto;
             font-weight: 400;
-            line-height: 130%;
+            line-height: 126%;
             word-wrap: break-word;
             color: $footer-color;
         }
     }
-    &-button-prev{
+    &-button-prev::after{
         color: #1E1E1E;
     }
-    &-button-next{
+    &-button-next::after{
+        color: #1E1E1E;
+    }
+    &-pagination-bullet{
         color: #1E1E1E;
     }
 }
@@ -267,9 +282,8 @@ header{
 footer{
     background-color: $footer-color;
     .footer-signup{
-        display: flex;
+        text-align: center;
         flex-direction: column;
-        gap: 16px;
         justify-content: center;
         align-items: center;
         padding: 64px 0;
@@ -278,34 +292,44 @@ footer{
             font-weight: 700;
             line-height: 24px;
             color: $main-color;
+            margin-bottom: 16px;
         }
         &__form{
             display: flex;
-            justify-content: space-between;
-            width: 616px;
-            border-radius: 40px;
-            background-color: $main-color;
-            input, button{
-                outline: none;
-                border: none;
-                background: none;
-            }
+            max-width: 616px;
+            min-width: 300px;
+            // width: 50%;
+            margin: 0 auto 0;
+            background-color: white;
+            border-radius: 99px;
+            overflow: hidden;
             input{
-                padding: 12px 0 12px 40px;
-                font-family: $ff-poppins;
-                color: #9A9A9A;
-                opacity: 0.6;
+                display: flex;
+                flex: 1;
+                min-height: 48px;
+                padding-left: 40px;
+                border-radius: 99px;
+                border: none;
+                outline: none;
             }
             button{
-                padding: 12px 40px;
-                font: var(--fz-main) $ff-poppins;
-                border-radius: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 48px;
+                height: 100%;
+                padding: 0 40px;
+                font-size: 15px;
                 font-weight: 600;
-                line-height: 150%;
-                color: $black;
-            } 
+                background-color: white;
+                border-radius: 99px;
+                border: none;
+                cursor: pointer;
+                transition: 0.3s;
+            }
             button:hover{
-                background-color: #e7e7e7;
+                background: #1E1E1E;
+                color: #F2F2F2;
             }
         }
     }
