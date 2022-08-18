@@ -388,7 +388,7 @@ footer .footer-infor {
 }
 footer .footer-infor__wraper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 938px;
   height: 106px;
   margin: 0 auto;
