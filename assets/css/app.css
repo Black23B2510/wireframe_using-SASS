@@ -83,7 +83,7 @@ header .main-nav {
   width: 100%;
 }
 header .main-nav__logo img {
-  vertical-align: text-bottom;
+  vertical-align: middle;
 }
 header .main-nav__list {
   display: flex;
@@ -117,6 +117,8 @@ header .main-nav__icon {
 
 .swiper {
   height: 800px;
+  width: 100%;
+  position: relative;
 }
 .swiper-slide {
   display: flex;
@@ -136,7 +138,7 @@ header .main-nav__icon {
   color: #000000;
 }
 .swiper-slide__text {
-  width: 487px;
+  max-width: 487px;
   height: auto;
   font: var(--fz-main) "Roboto", sans-serif;
   font-weight: 400;
@@ -275,7 +277,9 @@ header .main-nav__icon {
 }
 
 .about-us {
-  height: 900px;
+  max-height: 900px;
+  min-height: 375px;
+  height: 47vw;
   margin-top: 75px;
   background-color: #E1E1E1;
 }
