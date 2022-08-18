@@ -553,6 +553,9 @@ footer .footer-copyright__text {
   }
 }
 @media only screen and (max-width: 640px) {
+  .about-us__content {
+    width: 80%;
+  }
   footer .footer-infor__wraper {
     height: auto;
     flex-direction: column;
@@ -585,6 +588,11 @@ footer .footer-copyright__text {
   }
   footer .footer-signup__form {
     width: 300px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  footer .footer-signup__form button {
+    font-size: 11px;
   }
 }
 

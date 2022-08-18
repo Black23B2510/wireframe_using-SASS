@@ -165,6 +165,11 @@
 }
 
 @media only screen and (max-width: 640px){
+    .about-us{
+        &__content{
+            width: 80%;
+        }
+    }
     footer{
         .footer-infor{
             &__wraper{
@@ -218,3 +223,15 @@
         }
     }
 } 
+
+@media only screen and (max-width: 350px){
+    footer{
+        .footer-signup{
+            &__form{
+                button{
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}
