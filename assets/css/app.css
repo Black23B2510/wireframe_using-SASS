@@ -136,7 +136,7 @@ header .main-nav__icon {
 .swiper-slide__content {
   position: absolute;
   top: 39.5%;
-  left: 24.25%;
+  left: 10.3%;
 }
 .swiper-slide__title {
   margin-bottom: 16px;
@@ -158,9 +158,6 @@ header .main-nav__icon {
   color: #1E1E1E;
 }
 .swiper-button-next::after {
-  color: #1E1E1E;
-}
-.swiper-pagination-bullet {
   color: #1E1E1E;
 }
 
@@ -384,7 +381,7 @@ footer .footer-signup__form button:hover {
   color: #F2F2F2;
 }
 footer .footer-infor {
-  padding: 64px 0;
+  padding: 63px 0;
   width: 100%;
   border-top: 1px solid #606060;
   border-bottom: 1px solid #606060;
@@ -480,13 +477,11 @@ footer .footer-copyright__text {
   }
 }
 @media only screen and (max-width: 820px) {
-  .swiper-slide__text {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    line-clamp: 4;
-    -webkit-box-orient: vertical;
+  .swiper-button-prev::after {
+    margin-top: 316%;
+  }
+  .swiper-button-next::after {
+    margin-top: 316%;
   }
   .feature-products__list {
     display: grid;
@@ -525,6 +520,12 @@ footer .footer-copyright__text {
   }
 }
 @media only screen and (max-width: 760px) {
+  .swiper-slide__content {
+    left: 21.3%;
+  }
+  .swiper-slide__text {
+    width: 78%;
+  }
   .our-products__list {
     display: grid;
     grid-template-columns: 1fr;
@@ -587,12 +588,15 @@ footer .footer-copyright__text {
     -webkit-box-orient: vertical;
   }
   footer .footer-signup__form {
-    width: 300px;
+    width: 335px;
   }
 }
 @media only screen and (max-width: 350px) {
+  footer .footer-signup__form {
+    width: 282px;
+  }
   footer .footer-signup__form button {
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 

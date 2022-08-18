@@ -79,15 +79,11 @@
 
 @media only screen and (max-width: 820px){
     .swiper{
-        &-slide{
-            &__text{
-                overflow: hidden;
-                text-overflow: ellipsis;
-                display: -webkit-box;
-                -webkit-line-clamp: 4; 
-                        line-clamp: 4; 
-                -webkit-box-orient: vertical;
-            }
+        &-button-prev::after{
+            margin-top: 316%;
+        }
+        &-button-next::after{
+            margin-top: 316%;
         }
     }
     .feature-products{
@@ -133,6 +129,16 @@
 }
 
 @media only screen and (max-width: 760px){
+    .swiper{
+        &-slide{
+            &__content{
+                left: 21.3%;
+            }
+            &__text{
+                width: 78%;
+            }
+        }
+    }
     .our-products{
         &__list{
             display: grid;

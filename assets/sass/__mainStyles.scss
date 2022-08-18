@@ -69,23 +69,13 @@ header{
         width: 100%;
         object-fit: cover;
         position: absolute;
-        // height: auto;
     }
     &-slide{
         &__content{
             position: absolute;
             top: 39.5%;
-            left: 24.25%;
+            left: 10.3%;
         }
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: left;
-        // align-items: flex-start;
-        // gap: 16px;
-        // margin-top: 316px;
-        // position: absolute;
-        // left: 8%;
-        // text-align: left;
         &__title{
             margin-bottom: 16px;
             font: var(--fz-banner) $ff-montserrat;
@@ -107,9 +97,6 @@ header{
         color: #1E1E1E;
     }
     &-button-next::after{
-        color: #1E1E1E;
-    }
-    &-pagination-bullet{
         color: #1E1E1E;
     }
 }
@@ -298,7 +285,6 @@ footer{
             display: flex;
             max-width: 616px;
             min-width: 300px;
-            // width: 50%;
             margin: 0 auto 0;
             background-color: white;
             border-radius: 99px;
@@ -334,7 +320,7 @@ footer{
         }
     }
     .footer-infor{
-        padding: 64px 0;
+        padding: 63px 0;
         width: 100%;
         border-top: 1px solid #606060;
         border-bottom: 1px solid #606060;
