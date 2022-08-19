@@ -48,7 +48,8 @@
                 top: 80px;
                 right: 0;
                 width: 100%;
-                box-shadow: 0 0 15px rgb(0 0 0 / 30%);
+                // box-shadow: 0 0 15px rgb(0 0 0 / 30%);
+                background-color: azure;
                 transition: 0.5s;
                 overflow: hidden;
                 &.active{
