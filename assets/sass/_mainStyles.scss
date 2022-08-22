@@ -320,7 +320,7 @@ header{
     height: 47vw;
     margin-top: 75px;
     background-color: $box-color;
-    &__wraper{
+    &__wrapper{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -369,7 +369,7 @@ footer{
             font-weight: 700;
             line-height: 24px;
             color: $main-color;
-            margin-bottom: 16px;
+            margin-bottom: 32px;
         }
         &__form{
             display: flex;
@@ -414,7 +414,7 @@ footer{
         width: 100%;
         border-top: 1px solid #606060;
         border-bottom: 1px solid #606060;
-        &__wraper{
+        &__wrapper{
             display: flex;
             justify-content: space-around;
             max-width: 938px;
