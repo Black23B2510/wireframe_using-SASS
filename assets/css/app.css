@@ -572,7 +572,6 @@ footer .footer-copyright__text {
   }
   .our-products__select select {
     width: auto;
-    padding: 5px 40px;
   }
   .our-products__select select:hover {
     color: #000000;
