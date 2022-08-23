@@ -54,6 +54,18 @@
             }
         }
     }
+    .swiper{
+        &-button-prev{
+            &::after{
+            font-size: 30px !important;
+            }
+         }
+        &-button-next{
+           &::after{
+            font-size: 30px !important;
+           }
+        }
+    }
     .feature-products{
         &__item{
             &.left{
@@ -89,6 +101,12 @@
             padding: 0px 25px;
         }
     }
+    .about-us{
+        &__btn{
+            width: 140px;
+            height: 45px;
+        }
+    }
 }
 
 @media only screen and (max-width: 760px){
@@ -121,9 +139,9 @@
         &__option, select{
             border: none;
             outline: none;
+            font-size: var(--fz-navtabs);
             font-family: $ff-montserrat;
             font-weight: 400;
-            font-size: 18px;
             line-height: 22px;
             color: #656565;
         }

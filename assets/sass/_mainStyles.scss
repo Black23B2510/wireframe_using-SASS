@@ -361,6 +361,14 @@ footer{
                 color: #F2F2F2;
             }
         }
+        &__email::placeholder{
+            font-size: var(--fz-main);
+            font-family: $ff-poppins;
+            font-weight: 300;
+            line-height: 150%;
+            color: #9A9A9A;
+            opacity: 0.6;
+        }
     }
     .footer-infor{
         padding: 63px 0;
