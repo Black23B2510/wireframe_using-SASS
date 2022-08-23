@@ -181,8 +181,14 @@ header .main-nav__icon {
   opacity: 0.6;
 }
 .swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
   border: 1px solid #000000;
   background-color: #000000 !important;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 32px !important;
 }
 
 .feature-products {
@@ -426,6 +432,7 @@ footer .footer-signup__form button {
   min-height: 48px;
   height: 100%;
   padding: 0 40px;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 600;
   background-color: white;
@@ -657,6 +664,9 @@ footer .footer-copyright__text {
     width: 136px;
     height: 40px;
   }
+  footer .footer-signup {
+    padding: 32px 0;
+  }
   footer .footer-signup__form {
     width: 320px;
   }
@@ -695,7 +705,10 @@ footer .footer-copyright__text {
     height: 33px;
   }
   footer .footer-signup {
-    padding: 32px 0;
+    padding: 16px 0;
+  }
+  footer .footer-signup__title {
+    margin-bottom: 8px;
   }
   footer .footer-signup__form {
     width: 260px;

@@ -212,6 +212,7 @@
     }
     footer{
         .footer-signup{
+            padding: 32px 0;
             &__form{
                 width: 320px;
                 input{
@@ -264,7 +265,10 @@
     }
     footer{
         .footer-signup{
-            padding: 32px 0;
+            padding: 16px 0;
+            &__title{
+                margin-bottom: 8px;
+            }
             &__form{
                 width: 260px;
                 input{
