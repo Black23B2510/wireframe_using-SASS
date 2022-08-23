@@ -94,24 +94,31 @@ header{
     }
     &-button-prev{
         margin-left: 18.5%; 
+        cursor: pointer;
         &::after{
             font-size: 30px !important;
             color: #1E1E1E;
         }
+        &:hover{
+            opacity: 0.6;
+        }
      }
     &-button-next{
+        cursor: pointer;
        margin-right: 18.5%; 
        &::after{
         font-size: 30px !important;
         color: #1E1E1E;
        }
+       &:hover{
+        opacity: 0.6;
+        }
     }
     &-pagination-bullet{
         border: 1px solid $black;
         background-color: $black !important;
     }
 }
-
 .feature-products{
     width: 100%;
     margin-top: 86px;
@@ -324,7 +331,7 @@ footer{
             font-weight: 700;
             line-height: 24px;
             color: $main-color;
-            margin-bottom: 32px;
+            margin-bottom: 16px;
         }
         &__form{
             display: flex;

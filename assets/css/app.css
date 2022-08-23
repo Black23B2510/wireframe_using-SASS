@@ -160,17 +160,25 @@ header .main-nav__icon {
 }
 .swiper-button-prev {
   margin-left: 18.5%;
+  cursor: pointer;
 }
 .swiper-button-prev::after {
   font-size: 30px !important;
   color: #1E1E1E;
 }
+.swiper-button-prev:hover {
+  opacity: 0.6;
+}
 .swiper-button-next {
+  cursor: pointer;
   margin-right: 18.5%;
 }
 .swiper-button-next::after {
   font-size: 30px !important;
   color: #1E1E1E;
+}
+.swiper-button-next:hover {
+  opacity: 0.6;
 }
 .swiper-pagination-bullet {
   border: 1px solid #000000;
@@ -391,7 +399,7 @@ footer .footer-signup__title {
   font-weight: 700;
   line-height: 24px;
   color: #FFFFFF;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 footer .footer-signup__form {
   display: flex;
