@@ -162,12 +162,14 @@ header .main-nav__icon {
   margin-left: 18.5%;
 }
 .swiper-button-prev::after {
+  font-size: 30px !important;
   color: #1E1E1E;
 }
 .swiper-button-next {
   margin-right: 18.5%;
 }
 .swiper-button-next::after {
+  font-size: 30px !important;
   color: #1E1E1E;
 }
 .swiper-pagination-bullet {
@@ -541,10 +543,10 @@ footer .footer-copyright__text {
     opacity: 0;
   }
   .swiper-button-prev::after {
-    font-size: 30px !important;
+    font-size: 25px !important;
   }
   .swiper-button-next::after {
-    font-size: 30px !important;
+    font-size: 25px !important;
   }
   .feature-products__item.left {
     margin-right: 16px;

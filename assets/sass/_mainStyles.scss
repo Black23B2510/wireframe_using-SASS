@@ -95,12 +95,14 @@ header{
     &-button-prev{
         margin-left: 18.5%; 
         &::after{
-         color: #1E1E1E;
+            font-size: 30px !important;
+            color: #1E1E1E;
         }
      }
     &-button-next{
        margin-right: 18.5%; 
        &::after{
+        font-size: 30px !important;
         color: #1E1E1E;
        }
     }
