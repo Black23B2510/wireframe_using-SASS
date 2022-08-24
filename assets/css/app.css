@@ -727,6 +727,15 @@ footer .footer-copyright__text {
   footer .footer-infor {
     padding: 30px 0;
   }
+  footer .footer-infor__site--title {
+    padding-bottom: 8px;
+  }
+  footer .footer-infor__terms--title {
+    padding-bottom: 8px;
+  }
+  footer .footer-infor li:nth-child(1) {
+    padding: 4px 0;
+  }
   footer .footer-copyright__text {
     padding: 15px 0 16px 0;
   }

@@ -282,6 +282,19 @@
         }
         .footer-infor{
             padding: 30px 0;
+            &__site{
+                &--title{
+                    padding-bottom: 8px;
+                }
+            }
+            &__terms{
+                &--title{
+                    padding-bottom: 8px;
+                }
+            }
+            li:nth-child(1){
+                padding: 4px 0;
+            } 
         }
         .footer-copyright{
             &__text{
