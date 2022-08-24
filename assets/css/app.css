@@ -317,7 +317,7 @@ header .main-nav__icon {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 32px 33px;
 }
 .our-products__card {
   width: 376px;
